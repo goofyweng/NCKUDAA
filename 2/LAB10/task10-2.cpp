@@ -4,9 +4,11 @@
 using namespace std;
 int main()
 {
-    char *filename;
+    const char *filename;
+    string ifilename;
     cout << "Enter the filename:";
-    cin >> filename;
+    cin >> ifilename;
+    filename = ifilename.c_str();
     ofstream out_file(filename);
     int n;
     cout << "Enter an number:";
