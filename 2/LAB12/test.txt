@@ -1,0 +1,3 @@
+They are: Ben, John, Marry, Jean and Tom, 
+Their average age is 21.8 years old.
+They are 3 boys and 2 girls.
